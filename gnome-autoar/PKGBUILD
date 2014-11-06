@@ -1,6 +1,6 @@
 _pkgname=gnome-autoar
 pkgname=gnome-autoar-git
-pkgver=20141105
+pkgver=20141014.0300e4b
 pkgrel=1
 arch=('i686' 'x86_64')
 pkgdesc="Automatic archives creating and extracting library"
