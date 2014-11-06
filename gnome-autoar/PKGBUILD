@@ -14,6 +14,11 @@ source=('git+https://github.com/GNOME/gnome-autoar.git')
 
 md5sums=('SKIP')
 
+pkgver() {
+  cd "${srcdir}/${_pkgname}"
+  git log -1 --format=%cd.%h --date=short|tr -d -
+}
+
 build() {
   cd "${srcdir}/${_pkgname}"
 
